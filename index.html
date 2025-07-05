@@ -1,0 +1,153 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ton Tien Lam - Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #0f0f0f;
+      color: #f5f5f5;
+      scroll-behavior: smooth;
+    }
+    header {
+      position: sticky;
+      top: 0;
+      background: #1a1a1a;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      z-index: 10;
+    }
+    header nav a {
+      color: #f5f5f5;
+      margin-left: 1rem;
+      text-decoration: none;
+    }
+    section {
+      padding: 4rem 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+    .hero {
+      text-align: center;
+      margin-top: 4rem;
+    }
+    .hero iframe {
+      margin-top: 2rem;
+      width: 100%;
+      max-width: 720px;
+      height: 405px;
+      border: none;
+      border-radius: 8px;
+    }
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 2rem;
+    }
+    .project-card {
+      background: #1a1a1a;
+      padding: 1rem;
+      border-radius: 8px;
+    }
+    .project-card iframe {
+      width: 100%;
+      height: 225px;
+      border: none;
+      border-radius: 4px;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      background: #1a1a1a;
+    }
+      .project-card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 4px;
+    }
+  </style>
+</head>
+<body id="top">
+  <header>
+    <div><strong>Ton Tien Lam</strong></div>
+    <nav>
+      <a href="#top">Home</a>
+      <a href="#projects">Projects</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Hi, My name is Lam</h1>
+    <p>And this is my Portfolio</p>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="projects">
+      <a href="https://play.google.com/store/apps/details?id=com.masongames.wannakanalearnjapanese&hl=vi" target="_blank" style="text-decoration: none; color: inherit;">
+        <div class="project-card">
+          <img src="https://play-lh.googleusercontent.com/N52lrjI6X-oU597vFM21vlPsbwzW6Tt_e-OFgVMmfg-bVrC87M-DPlTn7lUZ9lZpuw=w2560-h1440-rw" alt="Project 1 Thumbnail" />
+          <h3>Wanna Kanna</h3>
+          <p>Contributions: Led implementation of in-game ads using AppLovin', seamlessly integrated into the game flow. Developed intuitive UI and engaging gameplay systems based on detailed scripts provided by the Game Designer, ensuring a polished and cohesive player experience </p>
+          <p>Studio: Darkcup Games</p>
+          <p>Platform: Mobile (iOS/Android)</p>
+          <p>Project Length: 3 months</p>
+        </div>
+      </a>
+      <a href="https://www.youtube.com/watch?v=aJWLmZPIMUw" target="_blank" style="text-decoration: none; color: inherit;">
+        <div class="project-card">
+          <img src="https://miro.medium.com/max/2400/1*JxVMsDFqq-bsdcFsw3Isvg.png" alt="Project 2 Thumbnail" />
+          <h3>DGPals</h3>
+          <p>Contributions: Implemented responsive UI and immersive gameplay mechanics. Engineered backend features using PhotonEngine for real-time multiplayer, and integrated PlayFab for scalable cloud-based data management</p>
+          <p>Studio: DGPals</p>
+          <p>Platform: Mobile (iOS/Android)</p>
+          <p>Project Length: 1 year</p>
+        </div>
+      </a>
+      <a href="https://play.google.com/store/apps/details?id=com.darkcupgames.survival.bunny.io" target="_blank" style="text-decoration: none; color: inherit;">
+        <div class="project-card">
+          <img src="https://play-lh.googleusercontent.com/IH6kyRzc1gNgWLerwvxDWtkRaFRhd5a3_8oSfaDlAQ_10mgz-HRn7dRdBWJ-JFxzyN8=w2560-h1440-rw" alt="Project 2 Thumbnail" />
+          <h3>Bunny Survivor</h3>
+          <p>Contributions:  Integrated in-game advertisements with AppLovin' for optimized monetization. Developed polished UI and gameplay systems tailored to the game's flow, implemented performance optimization techniques, and managed local data persistence through a custom database system using Unity's PlayerPrefs and file storage.</p>
+          <p>Studio: Darkcup Games</p>
+          <p>Platform: Mobile (iOS/Android)</p>
+          <p>Project Length: 2 months</p>
+        </div>
+      </a>
+      <a href="https://play.google.com/store/apps/details?id=com.darkcupgames.space.farter" target="_blank" style="text-decoration: none; color: inherit;">
+        <div class="project-card">
+          <img src="https://play-lh.googleusercontent.com/i5os_9bk5dvT3iQahcYtXOuxUw711fP9cgRzh02BT9B0aPef8FpebBQ1n7DAK8xPgvQ=w2560-h1440-rw" alt="Project 2 Thumbnail" />
+          <h3>Coming Home: Escape Alien</h3>
+          <p>Contributions: Implemented AppLovin' ads to maximize revenue potential. Built and refined engaging gameplay systems, and developed a flexible in-editor tool for easily creating and managing multiple game stages, streamlining the level design workflow for the team.</p>
+          <p>Studio: Darkcup Games</p>
+          <p>Platform: Mobile (iOS/Android)</p>
+          <p>Project Length: 1 month</p>
+        </div>
+      </a>
+    </div>
+  </section>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      I've over 3 years of experience of making games with Unity, specializing in both 2D and 3D game development. My passion lies in creating engaging multiplayer experiences, particularly in the mid-core and hypercasual genres. 
+      I'm familiar with working on both Android and iOS platforms, manifest in working with Photon Engine, Socket, APIs and RUDP.
+    </p>
+    <a href="https://drive.google.com/uc?export=download&id=1D7pesljPD_HRNSySTu9Uo1wJS1_Gi38u" download style="display:inline-block;margin-top:1rem;padding:0.5rem 1rem;background:#4ea1ff;color:#fff;text-decoration:none;border-radius:4px;">Download My CV</a>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:lamton2796@gmail.com" style="color:#4ea1ff;">Lamton2796@gmail.com</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/lâm-tôn-bb178b2a1/" style="color:#4ea1ff;" target="_blank" rel="noopener noreferrer">Click here for my Linkedin page</a></p>
+  </section>
+</body>
+</html>
